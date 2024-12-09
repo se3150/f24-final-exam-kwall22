@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.4, pytest-7.4.0, pluggy-1.0.0
+rootdir: /Users/kassidywall/Desktop/se3150/final_exam/f24-final-exam-kwall22
+plugins: describe-2.2.0, anyio-3.5.0, spec-4.0.0, mock-3.14.0
+collected 9 items
+
+test_brute.py:
+
+Brute:
+
+  BruteMany:
+    ✓ It doesnt allow negative limit
+    ✓ It returns positive float on success
+    ✓ It returns negative one on fail
+    ✓ It uses hash in bruteOnce for each loop
+    ✓ It uses random guess inside brute once for each loop
+
+  BruteOnce:
+    ✓ It returns true on successful attempt with simple
+    ✓ It returns true on successful attempt with hard
+    ✓ It returns false on bad attempt with simple
+    ✓ It returns false on bad attempt with hard                          [100%]
+
+============================== 9 passed in 35.56s ==============================
